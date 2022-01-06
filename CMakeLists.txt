@@ -49,7 +49,7 @@ target_compile_features(libpnp PUBLIC cxx_std_11)
 set_target_properties(libpnp PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 
-option(WITH_PYBIND11 "with pybind11 bindings" OFF)
+option(WITH_PYBIND11 "with pybind11 bindings" ON)
 if(WITH_PYBIND11)
     message("requires that submodules are inited! git submodule init && git submodule update")
     add_subdirectory(pybind11)
