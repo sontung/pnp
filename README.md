@@ -1,6 +1,6 @@
 # build with python bindings
 1. `cmake .. -DPYTHON_EXECUTABLE=$(which python)`
-
+2. `make`
 
 # pnp
 A RANSAC and BA based pnp wrapper for the Lambdatwist p3p solver. See: 
