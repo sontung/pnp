@@ -222,7 +222,6 @@ PoseD PNP::compute(){
                     ) break;
         }
     }
-
     total_iters=i;
 
 
